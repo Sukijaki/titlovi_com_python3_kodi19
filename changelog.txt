@@ -1,0 +1,45 @@
+1.0.0
+Initial release for XBMC 13.0 Gotham.
+
+1.0.1
+Fixed bug showing correct number of results
+
+1.0.2
+Add manual search and shows raiting stars corectly
+
+1.0.3
+Fixed tvshow display format like following example:
+- name (year) S01E02 release
+
+1.0.4
+Eliminate duplicate subtitles and add supported languages
+Check if searched language is supported by site.
+
+1.0.5
+Add options for automatic conversion from latin to cyrillic letters for serbian
+Conversion is done with script.module.lat2cyr
+
+1.0.6
+Fixed title and year search error and fixed extracting rar files
+
+1.0.7
+Add support to search tvshow season and episode
+- Searching episodes works for automatic search and manual search
+- If searched episode don't exist and have whole season returns "S01 Pack" for example
+- Allowed search for manual search terms for season are: S01E01, 101, 1x01
+
+1.0.8
+- Fixed converting to cyrillic and selecting converted subtitle
+- Better tvshow search and filter
+
+1.0.9
+- Fixed problems with titlovi api.
+
+1.1.0
+- Removed errors
+
+1.1.2
+- Fixed automatic search on tv shows
+
+1.1.3
+- Fixed problems with parsing titlovi
